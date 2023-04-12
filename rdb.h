@@ -72,8 +72,8 @@ public:
 	void addIntColumn(const string&);
 	void addFloatColumn(const string&);
 	void addStringColumn(const string&);
-	void Delete();
-	void print();
+	 void Delete();
+	 void print();
 };
 
 #endif
