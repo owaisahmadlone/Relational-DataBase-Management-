@@ -5,7 +5,7 @@
 #include <list>
 #include "rdb-attr.cpp"
 
-using namespace std;
+using  namespace std;
 
 class IntAttr : public Attr {
 private:
