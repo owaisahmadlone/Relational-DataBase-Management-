@@ -51,7 +51,7 @@ Relation* Difference(Relation* R1, Relation* R2) {
     }
 
     // create a new relation with the same attribute names as R1
-    auto* diff = new Relation(R1->getnattr(), 0, R1->getattrnames(), R1->getattrinds(), list<Record*>());
+    auto*  diff = new Relation(R1->getnattr(), 0, R1->getattrnames(), R1->getattrinds(), list<Record*>());
 
     // iterate through all records in R1
     for (auto r1 : R1->getRecords()) {
