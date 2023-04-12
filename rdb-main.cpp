@@ -1,8 +1,8 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <list>
-#include "rdb-join.cpp"
+#include<iostream>
+#includ<string>
+#include<vector>
+#include<list>
+#include"rdb-join.cpp"
 
 using namespace std;
 
